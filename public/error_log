@@ -1,0 +1,11 @@
+[26-Jul-2020 23:38:22 America/Chicago] PHP Warning:  Uncaught ErrorException: require_once(/home/pulaucod/public_html/pulaucoding1/vendor/facebook/vendor/autoload.php): failed to open stream: No such file or directory in /home/pulaucod/public_html/pulaucoding1/app/Controllers/Account.php:28
+Stack trace:
+#0 /home/pulaucod/public_html/pulaucoding1/app/Controllers/Account.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(/h...', '/home/pulaucod/...', 28, Array)
+#1 /home/pulaucod/public_html/pulaucoding1/app/Controllers/Account.php(28): require_once()
+#2 /home/pulaucod/public_html/pulaucoding1/system/CodeIgniter.php(886): App\Controllers\Account->__construct()
+#3 /home/pulaucod/public_html/pulaucoding1/system/CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#4 /home/pulaucod/public_html/pulaucoding1/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/pulaucod/public_html/pulaucoding1/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+  thrown in /home/pulaucod/public_html/pulaucoding1/app/Controllers/Account.php on line 28
+[26-Jul-2020 23:38:22 America/Chicago] PHP Fatal error:  App\Controllers\Account::__construct(): Failed opening required '/home/pulaucod/public_html/pulaucoding1/vendor/facebook/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/pulaucod/public_html/pulaucoding1/app/Controllers/Account.php on line 28
